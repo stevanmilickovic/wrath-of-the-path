@@ -264,7 +264,7 @@ class App:
         if self.state == AppState.EMPTY:
             return "Status: no maze (click Generate)"
         if self.state == AppState.MAZE_READY:
-            return "Status: maze ready (choose algorithm)"
+            return "Status: maze ready (choose)"
         if self.state == AppState.SEARCHING:
             return "Status: searching..."
         if self.state == AppState.MOVING:
