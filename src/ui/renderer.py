@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import pygame
 
-from core.grid import Grid, Pos
-from core.player import Player
-from utils.math2d import grid_to_screen
+from ..core.grid import Grid, Pos
+from ..core.player import Player
+from ..utils.math2d import grid_to_screen
 from . import colors
 
 

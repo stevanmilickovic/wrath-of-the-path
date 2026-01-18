@@ -2,30 +2,22 @@ from __future__ import annotations
 
 import pygame
 
-from algorithms.common import AlgorithmConfig
-from algorithms import bfs, dfs, astar
-from core.grid import Grid, Pos
-from core.maze import MazeConfig, MazeGenerator
-from core.player import Player
-from config import (
-    APP_TITLE,
-    FPS,
-    GRID_W,
-    GRID_H,
-    CELL_SIZE,
-    CELL_GAP,
-    PANEL_W,
-    MARGIN,
-    WINDOW_W,
-    WINDOW_H,
-    START_POS,
-    GOAL_POS,
-    SEARCH_STEP_DELAY_MS,
-    PLAYER_STEP_DELAY_MS,
-    MAZE_SEED,
+from ..algorithms.common import AlgorithmConfig
+from ..algorithms import bfs, dfs, astar
+
+from ..core.grid import Grid, Pos
+from ..core.maze import MazeConfig, MazeGenerator
+from ..core.player import Player
+
+from ..config import (
+    APP_TITLE, FPS, GRID_W, GRID_H, CELL_SIZE, CELL_GAP, PANEL_W, MARGIN,
+    WINDOW_W, WINDOW_H, START_POS, GOAL_POS, SEARCH_STEP_DELAY_MS,
+    PLAYER_STEP_DELAY_MS, MAZE_SEED
 )
-from utils.math2d import Rect
-from utils.timing import StepTimer
+
+from ..utils.math2d import Rect
+from ..utils.timing import StepTimer
+
 from .renderer import Renderer
 from .widgets import Button
 

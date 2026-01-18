@@ -3,8 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Callable, Iterable
 
-from core.grid import Grid, Pos
-from core.result import SearchResult
+from ..core.grid import Grid, Pos
+from ..core.result import SearchResult
 
 
 @dataclass(frozen=True)

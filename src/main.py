@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from ui.app import App
+from .ui.app import App
 
 
 def main() -> None:

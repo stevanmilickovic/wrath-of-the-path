@@ -5,7 +5,7 @@ from typing import Callable
 
 import pygame
 
-from utils.math2d import Rect
+from ..utils.math2d import Rect
 from . import colors
 
 

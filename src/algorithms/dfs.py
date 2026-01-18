@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from core.grid import Grid, Pos
-from core.result import SearchResult
+from ..core.grid import Grid, Pos
+from ..core.result import SearchResult
 from .common import AlgorithmConfig, emit, neighbors4, new_result, reconstruct_path
 
 
