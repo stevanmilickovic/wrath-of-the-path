@@ -1,0 +1,24 @@
+from __future__ import annotations
+
+BG = (18, 18, 22)
+PANEL_BG = (24, 24, 30)
+
+GRID_LINE = (40, 40, 50)
+WALL = (12, 12, 14)
+FLOOR = (32, 32, 40)
+
+START = (70, 180, 120)
+GOAL = (220, 170, 60)
+PLAYER = (90, 140, 255)
+
+VISITED = (120, 120, 155)
+FRONTIER = (160, 120, 200)
+PATH = (240, 240, 240)
+
+BTN = (50, 50, 62)
+BTN_HOVER = (70, 70, 86)
+BTN_DISABLED = (35, 35, 44)
+BTN_TEXT = (240, 240, 240)
+
+TEXT = (220, 220, 230)
+MUTED_TEXT = (160, 160, 175)
